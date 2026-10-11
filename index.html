@@ -14,10 +14,12 @@
     .skip{position:absolute;top:-80px;left:20px;background:white;padding:10px;z-index:2}.skip:focus{top:10px}
     header{padding:28px 4vw;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--line);gap:20px}.wordmark{font-weight:700;letter-spacing:.15em;text-decoration:none}nav{display:flex;gap:24px;font-size:12px;flex-wrap:wrap}
     .intro{max-width:1120px;margin:0 auto;padding:92px 32px 72px}.eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;margin:0 0 24px}h1{font-size:clamp(64px,12vw,136px);line-height:1;letter-spacing:-.06em;margin:0 0 20px;font-weight:700}.subtitle{font-size:clamp(22px,3vw,36px);margin:0 0 32px}.lead{max-width:690px;font-size:17px;color:var(--muted)}.tags{font-size:11px;letter-spacing:.03em;margin-top:32px;color:var(--muted)}
+    .cover{margin:0 auto 52px;max-width:1900px;background:var(--ink)}.cover>a{display:block}.cover>a:hover{opacity:1}.cover img{display:block;width:100%;height:auto}.cover-copy{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
     .portfolio{padding:0 3vw 70px;max-width:1900px;margin:auto}.section-label{display:flex;align-items:baseline;justify-content:space-between;gap:18px;margin:0 0 20px;padding-top:24px;border-top:1px solid var(--line)}h2{font-size:18px;line-height:1.5;margin:0}small,.zoom{font-size:11px;color:var(--muted)}figure{margin:0 0 56px}.spread{display:block;border:1px solid var(--line);background:white;box-shadow:0 8px 24px #19172f09}.spread:hover{opacity:1}.spread img{width:100%;height:auto;display:block}figcaption{display:flex;justify-content:space-between;gap:24px;margin-top:12px;font-size:12px;color:var(--muted)}figcaption p{margin:0;max-width:850px}.zoom{white-space:nowrap}
     .notes{background:var(--ink);color:white;padding:64px max(5vw,24px)}.notes-inner{max-width:1056px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:64px}.notes h2{font-size:23px;margin-bottom:20px}.notes p{font-size:13px;color:#d0cdda}.notes strong{color:white}.status{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#c6c2d8}details{max-width:1056px;margin:50px auto 0;border-top:1px solid #ffffff35;padding-top:22px}summary{cursor:pointer;font-size:15px}ol{padding-left:20px;font-size:12px;color:#d0cdda}li{margin:14px 0}
     footer{max-width:1120px;margin:auto;display:flex;justify-content:space-between;gap:24px;padding:28px 32px;font-size:11px;color:var(--muted)}
     @media(max-width:650px){header{padding:22px}nav{gap:16px}.intro{padding:56px 24px 48px}.lead{font-size:15px}.portfolio{padding:0 14px 22px}.section-label{align-items:flex-start}.section-label h2{font-size:15px}.section-label small{display:none}figcaption{display:block;font-size:11px}.zoom{display:inline-block;margin-top:10px}.notes-inner{grid-template-columns:1fr;gap:30px}.notes{padding-top:42px}footer{flex-wrap:wrap}figure{margin-bottom:34px}}
+    @media(max-width:650px){.cover{margin-bottom:24px}.cover-copy{position:static;width:auto;height:auto;overflow:visible;clip-path:none;color:white;padding:28px 24px 34px}.cover-copy h1{font-size:42px;letter-spacing:-.04em;margin-bottom:12px}.cover-copy .subtitle{font-size:18px;margin-bottom:20px}.cover-copy p{font-size:13px;color:#dedce6}.cover-copy .subtitle{color:white}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
   </style>
 </head>
@@ -25,12 +27,11 @@
   <a class="skip" href="#portfolio">Skip to portfolio</a>
   <header><a class="wordmark" href="#">AGAIN</a><nav aria-label="Main navigation"><a href="#portfolio">Portfolio</a><a href="#prototype">Prototype</a><a href="https://github.com/leviastudio925-collab/again-shoulder-assistant">GitHub ↗</a></nav></header>
   <main>
-    <section class="intro" aria-labelledby="project-title">
-      <p class="eyebrow">Wearable robotics / Interaction design</p>
-      <h1 id="project-title">AGAIN</h1>
+    <section class="cover" aria-labelledby="project-title">
+      <a href="assets/cover.png" target="_blank" rel="noopener" aria-label="Open the project cover at full size"><img src="assets/cover.png" width="1684" height="595" fetchpriority="high" alt="AGAIN project cover: a close-up of the real shoulder-worn prototype, with an edited studio background and an introduction on the left."></a>
+      <div class="cover-copy"><h1 id="project-title">AGAIN</h1>
       <p class="subtitle">A voice on your shoulder.</p>
-      <p class="lead">When comparing becomes a loop, when is help welcome? AGAIN explores a shoulder-worn assistant that makes its attention visible, invites a conversation, and leaves the final decision with the wearer.</p>
-      <p class="tags">Physical computing · 3D printing · Embodied interaction · Decision support</p>
+      <p>AGAIN explores a shoulder-worn assistant that turns repeated comparison into an invitation for conversation. Through visible movement and proposed voice support, it asks whether help is welcome—while leaving the final choice with the wearer.</p></div>
     </section>
     <section class="portfolio" id="portfolio" aria-label="Four portfolio spreads">
       <div class="section-label"><h2>01 / Context &amp; research</h2><small>Portfolio spread · 1684 × 595</small></div>

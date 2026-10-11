@@ -6,7 +6,9 @@ A shoulder-worn robotic assistant exploring when decision support is welcome dur
 
 ## Portfolio
 
-Four current portfolio spreads, each 1684 × 595, are published in `assets/`:
+A standalone cover followed by four current portfolio spreads, each 1684 × 595, is published in `assets/`:
+
+0. [Editorial cover](assets/cover.png): clean prototype close-up and a short introduction
 
 1. Context, background, and research
 2. Research evidence, behavioral measures, and design roadmap
@@ -16,6 +18,8 @@ Four current portfolio spreads, each 1684 × 595, are published in `assets/`:
 The webpage uses the project's navy palette and Libre Caslon Text. Open any spread to view it at full size.
 
 These four spreads were synchronized from the [Figma portfolio page](https://www.figma.com/design/ApoghdbZoRBlbBcDctaMXf/Untitled?node-id=96-160) on 12 October 2026.
+
+The added [editable Figma cover](https://www.figma.com/design/ApoghdbZoRBlbBcDctaMXf/Untitled?node-id=509-3492) uses Libre Caslon Text and a navy-to-gray photographic composition. Its image is an AI-assisted cleanup and reframing of the supplied prototype photograph, used for presentation. See [cover notes](COVER.md).
 
 ## Prototype status
 
